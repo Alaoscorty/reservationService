@@ -11,9 +11,9 @@ document
     const message = document.getElementById("message").value.trim();
     const projet = document.getElementById("urgent").checked ? "Oui" : "Non";
 
-    let text = `Bonjour, je souhaite réserver un service :%0A`;
-    text += `👤 Nom : ${name}%0A`;
-    text += `📧 Email : ${email}%0A`;
+    let text = `Bonjour, je souhaite réserver un service :`;
+    text += `👤 Nom : ${name}`;
+    text += `📧 Email : ${email}`;
     if (phone) text += `📞 Téléphone : ${phone}%0A`;
     text += `🛠️ Service : ${service}%0A`;
     text += `📅 Date souhaitée : ${date}%0A`;
