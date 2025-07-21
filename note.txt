@@ -1,0 +1,2 @@
+Créer le mode sombre et le mode de changement de langues 
+en français, anglais, espagnoles et allemands.
